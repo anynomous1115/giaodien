@@ -109,8 +109,52 @@
         width: 100%;
         padding-left: 10px;
     }
+
     /* project */
-    .categoryItem{
-        /* display: block; */
+    .categoryItem {
+        display: block;
+    }
+
+    .categoryItemImage {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .categoryItemImage img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .categoryItemText {
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .categoryItemText-1 {
+        font-size: 28px;
+    }
+
+    .categoryItemText-2 {
+        width: 98%;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    .categoryItemBtn>a {
+        font-size: 18px;
+        
+    }
+    /* project detail */
+    .mainContent .mainContentBanner .mainContentBanner-p {
+        position: absolute;
+        top: 36%;
+        left: 38%;
+    }
+    
+    .mainContentBanner .mainContentBanner-p>p {
+        font-size: 50px;
+        color: #fcfcfc;
     }
 }
